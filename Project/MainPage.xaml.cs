@@ -25,6 +25,10 @@ namespace Project
         public MainPage()
         {
             this.InitializeComponent();
+
+            Random rnd = new Random();
+            int card = rnd.Next(1, 20);
+
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
