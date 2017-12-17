@@ -27,6 +27,7 @@ namespace Project
             this.InitializeComponent();
         }
 
+        // changes from mainpage to 2nd page
         public void NextPage(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(NextPage));
@@ -122,5 +123,5 @@ namespace Project
             mediaElement.Play();
         }
 
-    }
-}
+    } // public class
+} // namespace

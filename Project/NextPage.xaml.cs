@@ -27,6 +27,7 @@ namespace Project
             this.InitializeComponent();
         }
 
+        // Switches from 2nd page to mainpage
         public void MainPage(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
@@ -97,4 +98,4 @@ namespace Project
 
     } // public class
 
-}
+} // namespace
