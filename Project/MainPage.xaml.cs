@@ -25,10 +25,11 @@ namespace Project
         public MainPage()
         {
             this.InitializeComponent();
+        }
 
-            Random rnd = new Random();
-            int card = rnd.Next(1, 20);
-
+        public void NextPage(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NextPage));
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
